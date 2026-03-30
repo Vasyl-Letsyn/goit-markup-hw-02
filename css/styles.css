@@ -34,7 +34,7 @@ header {
     height: 24px;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -143,8 +143,7 @@ header {
 }
 
 .team-img {
-    width:264px; 
-    height:260px;
+
 }
 
 .team-subtitles {
@@ -210,7 +209,7 @@ background: #2e2f42;
 
 .footer-logo {font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
