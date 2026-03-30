@@ -30,8 +30,6 @@ header {
     background: #fff;
 }
 .header-logo {
-    width: 115px;
-    height: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -49,8 +47,6 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: 261px;
-    height: 24px;
 }
 .header-adress {}
 
@@ -82,16 +78,12 @@ header {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    font: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 .features {
 
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
     border: 0;
     padding: 0;
 
@@ -184,8 +176,7 @@ header {
 }
 
 .portfolio-img {
-    width:360px; 
-    height:300px;
+
     }
 
 .portfolio-subtitles {
