@@ -1,12 +1,30 @@
+a:hover,
+a:focus {
+    color: #404bbf;
+}
+
+button:hover,
+button:focus {
+    background-color: #404bbf;
+}
+
+button {
+    cursor: pointer;
+}
+address {
+    font-style: normal;
+}
 ul {
     list-style-type: none;
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 body {
-    font-family: "Roboto",
-        sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 header {
     background: #fff;
@@ -67,8 +85,7 @@ header {
     font: "Roboto", sans-serif;
 }
 .features {
-    width: 1440px;
-    height: 344px;
+
 }
 .visually-hidden {
     position: absolute;
@@ -103,11 +120,11 @@ header {
     color: #434455;
 }
 
-.Team {
+.team {
     background: #f4f4fd;
 }
 
-.Team-title {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -116,22 +133,21 @@ header {
     color: #2e2f42;
 }
 
-.Team-list {
+.team-list {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-item {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
-.Team-item {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
+.team-img {
+    width:264px; 
+    height:260px;
 }
 
-.Team-img {
-    width:264; 
-    height:260;
-}
-
-.Team-subtitles {
+.team-subtitles {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -140,7 +156,7 @@ header {
     color: #2e2f42;
 }
 
-.Team-text {
+.team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -169,8 +185,8 @@ header {
 }
 
 .portfolio-img {
-    width:360; 
-    height:300;
+    width:360px; 
+    height:300px;
     }
 
 .portfolio-subtitles {
